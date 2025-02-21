@@ -12,7 +12,7 @@ const logo: Content = {
 const currentDate: Content = {
   text: DateFormatter.getDDMMMMYYYY(new Date()),
   alignment: 'right',
-  margin: [20, 40],
+  margin: [20, 30],
 };
 
 interface HeaderOptions {
@@ -33,7 +33,6 @@ export const headerSection = (options: HeaderOptions): Content => {
         margin: [0, 2, 0, 0],
         style: {
           fontSize: 16,
-          bold: true,
         },
       }
     : '';

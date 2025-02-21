@@ -4,6 +4,6 @@ import { PrinterModule } from './printer/printer.module';
 import { StoreReportsModule } from './store-reports/store-reports.module';
 
 @Module({
-  imports: [BasicReportsModule, PrinterModule, StoreReportsModule]
+  imports: [BasicReportsModule, PrinterModule, StoreReportsModule],
 })
 export class AppModule {}
